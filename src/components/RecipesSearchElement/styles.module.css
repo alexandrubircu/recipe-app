@@ -10,7 +10,8 @@
     margin-bottom: 4px;
 }
 .RecipesSearchElement > img{
-    width: 150px;
+    height: 80px;
+    width: 310px;
     border-radius: 20px;
 }
 .info{

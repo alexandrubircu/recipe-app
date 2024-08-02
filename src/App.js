@@ -2,8 +2,33 @@ import './App.css';
 import chef from './images/chef.png'
 import RecipesLentElement from './components/RecipesLentElement/RecipesLentElement'
 import SideBar from './components/SideBar/SideBar'
+import { useEffect, useState } from 'react';
+import {api} from './api/api'
 
 function App() {
+  const [recipesDb,setRecipesDb] = useState([]);
+  const [filterResult,setFilterResult] = useState([])
+
+  const  fetchData = async () =>{
+    try{
+      const res = await api.get('/recipes');
+      setRecipesDb(res.data)
+      setFilterResult(res.data);
+    }catch (erorr){
+        console.log(erorr);
+    }
+  }
+
+  useEffect(() => {
+    fetchData();
+
+    const interval = setInterval(() => {
+      fetchData();
+    }, 300000);
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <div className="App">
       <div className='Logo'>
@@ -13,16 +38,25 @@ function App() {
       
       <div className='recipesWraper'>
         <div className='recipesLent'>
-          <RecipesLentElement/>
-          <RecipesLentElement/>
-          <RecipesLentElement/>
-          {/* <RecipesLentElement/> */}
           <div className='lentInfo'>
-            <p>Descoperă rețete delicioase pentru orice ocazie!</p>
+            <p>Discover delicious recipes for every occasion!</p>
           </div>
+          {
+            filterResult?.map(i=>(
+              <RecipesLentElement 
+                key={i.id} 
+                name={i.name} 
+                ingredients={i.ingredients} 
+                instructions={i.instructions} 
+                image={i.image}
+              />
+            ))
+          }
+
+          
         </div>
         <div className='sidebar'>
-          <SideBar/>
+          <SideBar setFilterResult={setFilterResult} recipesDb={recipesDb} />
         </div>
       </div>
     </div>

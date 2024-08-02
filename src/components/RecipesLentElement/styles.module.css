@@ -37,17 +37,17 @@
 
 }
 .ingridients{
-
     width: 50%;
     height: fit-content;
+    padding-left: 13px;
 }
-.ingridients > li{
+.ingridients > ul{
     font-size: 18px;
     font-weight: 500;
 }
 .recipe{
     width: 50%;
-    height: fit-content;
+    height: 100%;
     border-left: 1.5px solid black;
     padding-left: 5px;
 }
@@ -55,3 +55,5 @@
     font-size: 18px;
     font-weight: 500;
 }
+
+  

@@ -1,0 +1,351 @@
+{
+    "recipes": [
+      {
+        "id": 1,
+        "name": "Pasta Carbonara",
+        "ingredients": [
+          "pasta",
+          "bacon",
+          "eggs",
+          "parmesan cheese",
+          "black pepper"
+        ],
+        "instructions": "Cook the pasta. Fry the bacon. Mix eggs and cheese. Combine everything with pepper.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Espaguetis_carbonara.jpg/1200px-Espaguetis_carbonara.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Chicken Curry",
+        "ingredients": [
+          "chicken",
+          "onion",
+          "garlic",
+          "curry powder",
+          "coconut milk"
+        ],
+        "instructions": "Cook the chicken with onion and garlic. Add curry powder and coconut milk. Simmer until cooked.",
+        "image": "https://www.foodandwine.com/thmb/8YAIANQTZnGpVWj2XgY0dYH1V4I=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/spicy-chicken-curry-FT-RECIPE0321-58f84fdf7b484e7f86894203eb7834e7.jpg"        
+      },
+      {
+        "id": 3,
+        "name": "Beef Stroganoff",
+        "ingredients": [
+          "beef",
+          "mushrooms",
+          "onion",
+          "sour cream",
+          "beef broth"
+        ],
+        "instructions": "Cook beef with mushrooms and onion. Add beef broth and sour cream. Simmer until thickened.",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEictcKGuEmDYOJrrax7DW58OCKi5ZQvwtG7Zb-BEd9LjqshIN_pEmTR5Dz1rmvQ72slkM-glJZ81Gas3ZE3B7mUEmtWsyWV-QHj9fb94VonH8iJnBAtAlMO2JqYJDlUqmV3QLuDmhdiCtEU/s1600/beef+stroganoff.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Greek Salad",
+        "ingredients": [
+          "cucumber",
+          "tomato",
+          "feta cheese",
+          "olives",
+          "red onion"
+        ],
+        "instructions": "Chop all ingredients and mix in a bowl. Add olive oil and oregano.",
+        "image": "https://hips.hearstapps.com/hmg-prod/images/greek-salad-index-642f292397bbf.jpg?crop=0.888888888888889xw:1xh;center,top&resize=1200:*"
+      },
+      {
+        "id": 5,
+        "name": "Vegetable Stir-Fry",
+        "ingredients": [
+          "broccoli",
+          "carrots",
+          "bell peppers",
+          "soy sauce",
+          "garlic"
+        ],
+        "instructions": "Stir-fry vegetables with garlic. Add soy sauce and cook until tender.",
+        "image": "https://ichef.bbci.co.uk/food/ic/food_16x9_832/recipes/sachas_stir-fry_17077_16x9.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Margherita Pizza",
+        "ingredients": [
+          "pizza dough",
+          "tomato sauce",
+          "mozzarella cheese",
+          "basil leaves"
+        ],
+        "instructions": "Spread tomato sauce on dough. Add mozzarella and basil. Bake until cheese is melted.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Pizza_Margherita_stu_spivack.jpg/800px-Pizza_Margherita_stu_spivack.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Tacos",
+        "ingredients": [
+          "taco shells",
+          "ground beef",
+          "cheese",
+          "lettuce",
+          "salsa"
+        ],
+        "instructions": "Cook ground beef with seasoning. Fill taco shells with beef, cheese, lettuce, and salsa.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC5EES5kYkTL7ANrfNV3GgOO_pwqqJeBn9Rg&s"
+      },
+      {
+        "id": 8,
+        "name": "Chicken Caesar Salad",
+        "ingredients": [
+          "chicken breast",
+          "romaine lettuce",
+          "parmesan cheese",
+          "croutons",
+          "Caesar dressing"
+        ],
+        "instructions": "Grill chicken and slice. Toss lettuce with Caesar dressing, cheese, and croutons. Top with chicken.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4J9BkAnOqbpli4F4ORbbYAhb93b9n9l4LJw&s"
+      },
+      {
+        "id": 9,
+        "name": "Pancakes",
+        "ingredients": [
+          "flour",
+          "milk",
+          "eggs",
+          "butter",
+          "baking powder"
+        ],
+        "instructions": "Mix ingredients and cook on a griddle. Serve with syrup or fruit.",
+        "image": "https://feelgoodfoodie.net/wp-content/uploads/2023/08/Greek-Yogurt-Pancakes-Square-500x500.jpg"
+      },
+      {
+        "id": 10,
+        "name": "Chili",
+        "ingredients": [
+          "ground beef",
+          "beans",
+          "tomato sauce",
+          "onion",
+          "chili powder"
+        ],
+        "instructions": "Cook beef with onion. Add beans, tomato sauce, and chili powder. Simmer until thickened.",
+        "image": "https://hips.hearstapps.com/hmg-prod/images/best-ever-beef-chili-index-1677260488.jpg?crop=0.8903083856772774xw:1xh;center,top&resize=1200:*"
+      },
+      {
+        "id": 11,
+        "name": "Spaghetti Bolognese",
+        "ingredients": [
+          "spaghetti",
+          "ground beef",
+          "tomato sauce",
+          "onion",
+          "garlic",
+          "carrot",
+          "celery",
+          "olive oil"
+        ],
+        "instructions": "Cook the spaghetti. In a separate pan, sauté onion, garlic, carrot, and celery. Add ground beef and cook until browned. Add tomato sauce and simmer. Serve over spaghetti.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Tagliatelle_al_rag%C3%B9_%28image_modified%29.jpg/440px-Tagliatelle_al_rag%C3%B9_%28image_modified%29.jpg"
+      },
+      {
+        "id": 12,
+        "name": "Lasagna",
+        "ingredients": [
+          "lasagna noodles",
+          "ground beef",
+          "tomato sauce",
+          "ricotta cheese",
+          "mozzarella cheese",
+          "parmesan cheese",
+          "egg",
+          "garlic",
+          "onion"
+        ],
+        "instructions": "Cook noodles. In a pan, cook ground beef with garlic and onion. Mix ricotta with egg and Parmesan. Layer noodles, beef sauce, and cheese mixture. Bake until bubbly.",
+        "image": "https://www.modernhoney.com/wp-content/uploads/2019/08/Classic-Lasagna-14-scaled.jpg"
+      },
+      {
+        "id": 13,
+        "name": "Quiche Lorraine",
+        "ingredients": [
+          "pie crust",
+          "bacon",
+          "eggs",
+          "heavy cream",
+          "milk",
+          "Swiss cheese",
+          "salt",
+          "pepper"
+        ],
+        "instructions": "Cook bacon and crumble. Whisk eggs with cream, milk, salt, and pepper. Add bacon and cheese to pie crust. Pour egg mixture over. Bake until set.",
+        "image": "https://img.taste.com.au/yzM49jFu/taste/2017/02/classic-quiche-lorraine-121391-2.jpg"
+      },
+      {
+        "id": 14,
+        "name": "Stuffed Bell Peppers",
+        "ingredients": [
+          "bell peppers",
+          "ground beef",
+          "rice",
+          "tomato sauce",
+          "onion",
+          "garlic",
+          "cheese"
+        ],
+        "instructions": "Cook rice. Sauté onion and garlic, then add ground beef. Mix in rice and tomato sauce. Stuff into bell peppers and bake until tender. Top with cheese.",
+        "image": "https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_744,ar_5:4/v1/img/recipes/59/39/1/T3LQYq3KTHqAdqkJ258X_stuffed%20peppers%20SITE-2.jpg"
+      },
+      {
+        "id": 15,
+        "name": "Beef Tacos",
+        "ingredients": [
+          "taco shells",
+          "ground beef",
+          "taco seasoning",
+          "lettuce",
+          "cheese",
+          "sour cream",
+          "salsa"
+        ],
+        "instructions": "Cook ground beef with taco seasoning. Fill taco shells with beef, lettuce, cheese, and toppings.",
+        "image": "https://danosseasoning.com/wp-content/uploads/2022/03/Beef-Tacos-1024x767.jpg"
+      },
+      {
+        "id": 16,
+        "name": "Chicken Alfredo",
+        "ingredients": [
+          "fettuccine pasta",
+          "chicken breast",
+          "heavy cream",
+          "parmesan cheese",
+          "butter",
+          "garlic",
+          "salt",
+          "pepper"
+        ],
+        "instructions": "Cook fettuccine. Sauté chicken and garlic in butter. Add cream and cheese, then mix with pasta.",
+        "image": "https://www.budgetbytes.com/wp-content/uploads/2022/07/Chicken-Alfredo-bowl.jpg"
+      },
+      {
+        "id": 17,
+        "name": "Shrimp Scampi",
+        "ingredients": [
+          "shrimp",
+          "garlic",
+          "butter",
+          "lemon juice",
+          "white wine",
+          "parsley",
+          "pasta"
+        ],
+        "instructions": "Cook pasta. Sauté shrimp and garlic in butter. Add lemon juice and wine. Toss with pasta and parsley.",
+        "image": "https://www.allrecipes.com/thmb/jiV_4f8vXFle1RdFLgd8-_31J3M=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/229960-shrimp-scampi-with-pasta-DDMFS-4x3-e065ddef4e6d44479d37b4523808cc23.jpg"
+      },
+      {
+        "id": 18,
+        "name": "Mushroom Risotto",
+        "ingredients": [
+          "arborio rice",
+          "mushrooms",
+          "onion",
+          "garlic",
+          "chicken broth",
+          "parmesan cheese",
+          "butter",
+          "white wine"
+        ],
+        "instructions": "Sauté onions, garlic, and mushrooms. Add rice and wine. Gradually add broth, stirring constantly. Finish with butter and cheese.",
+        "image": "https://www.inspiredtaste.net/wp-content/uploads/2011/12/Mushroom-Risotto-Recipe-1-1200.jpg"
+      },
+      {
+        "id": 19,
+        "name": "Chicken Stir-Fry",
+        "ingredients": [
+          "chicken breast",
+          "bell peppers",
+          "broccoli",
+          "soy sauce",
+          "garlic",
+          "ginger",
+          "green onions"
+        ],
+        "instructions": "Stir-fry chicken with garlic and ginger. Add vegetables and soy sauce. Cook until tender.",
+        "image": "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2021/05/Chicken-Stir-Fry-main-1.jpg"
+      },
+      {
+        "id": 20,
+        "name": "Baked Ziti",
+        "ingredients": [
+          "ziti pasta",
+          "marinara sauce",
+          "ricotta cheese",
+          "mozzarella cheese",
+          "parmesan cheese",
+          "ground beef",
+          "garlic",
+          "onion"
+        ],
+        "instructions": "Cook pasta. Sauté beef, garlic, and onion. Mix with sauce and ricotta. Layer with pasta and mozzarella. Bake until bubbly.",
+        "image": "https://www.budgetbytes.com/wp-content/uploads/2019/10/Baked-Ziti-mixed-scoop-1200.jpg"
+      },
+      {
+        "id": 21,
+        "name": "Greek Gyro",
+        "ingredients": [
+          "pita bread",
+          "chicken or lamb",
+          "tzatziki sauce",
+          "tomato",
+          "onion",
+          "cucumber"
+        ],
+        "instructions": "Grill meat and slice. Fill pita with meat, vegetables, and sauce.",
+        "image": "https://i0.wp.com/fountainavenuekitchen.com/wp-content/uploads/2023/08/gyro-feature.jpg?resize=1170%2C780&ssl=1"
+      },
+      {
+        "id": 22,
+        "name": "Pesto Pasta",
+        "ingredients": [
+          "pasta",
+          "pesto sauce",
+          "parmesan cheese",
+          "pine nuts",
+          "garlic",
+          "olive oil"
+        ],
+        "instructions": "Cook pasta. Toss with pesto sauce and Parmesan. Garnish with pine nuts.",
+        "image": "https://vancouverwithlove.com/wp-content/uploads/2023/08/pasta-al-pesto-24-1.jpg"
+      },
+      {
+        "id": 23,
+        "name": "Tom Yum Soup",
+        "ingredients": [
+          "chicken or shrimp",
+          "lemongrass",
+          "galangal",
+          "kaffir lime leaves",
+          "chili paste",
+          "fish sauce",
+          "lime juice",
+          "mushrooms"
+        ],
+        "instructions": "Boil water with lemongrass, galangal, and lime leaves. Add meat and mushrooms. Season with chili paste, fish sauce, and lime juice.",
+        "image": "https://hot-thai-kitchen.com/wp-content/uploads/2013/03/tom-yum-goong-blog.jpg"
+      },
+      {
+        "id": 24,
+        "name": "Falafel",
+        "ingredients": [
+          "chickpeas",
+          "onion",
+          "garlic",
+          "coriander",
+          "cumin",
+          "baking powder",
+          "flour",
+          "oil"
+        ],
+        "instructions": "Blend chickpeas with onion, garlic, and spices. Form into balls and fry.",
+        "image": "https://toriavey.com/images/2011/01/TOA109_18-1.jpeg"
+      }
+    ]
+  }
+  
