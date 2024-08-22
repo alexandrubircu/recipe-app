@@ -56,4 +56,53 @@
     font-weight: 500;
 }
 
-  
+@media (max-width: 888px) {
+    .RecipeElement > img{
+        width: 220px;
+        height: 120px;
+    }
+}
+@media (max-width: 650px) {
+
+    .RecipeElement > img{
+        width: 200px;
+        height: 110px;
+    }
+   
+    .name > h1{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    
+    .ingridients > ul{
+        font-size: 17px;
+        font-weight: 400;
+    }
+    .recipe > p{
+        font-size: 17px;
+        font-weight: 400;
+    }
+    
+}
+@media (max-width: 530px) {
+
+    .RecipeElement > img{
+        width: 150px;
+        height: 90px;
+    }
+   
+    .info{
+        flex-direction: column;
+    }
+
+    .ingridients{
+        width: 100%;
+    }
+    .recipe{
+        width: 100%;
+        border-left: none;
+        border-top: 1.5px solid black;
+        padding-top: 5px;
+    }
+    
+}

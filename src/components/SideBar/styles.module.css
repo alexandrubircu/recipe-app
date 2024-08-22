@@ -49,3 +49,47 @@
     overflow: scroll;
     padding-right: 10px;
 }
+@media (max-width: 888px) {
+
+    .searchBox{
+        height: 43px;
+    }
+    .searchBox > input{
+        font-size: 20px;
+    }
+    .searchButton{
+        width: 50.35px;
+        height: 40px;
+    }
+    .searchButton > img{
+        width: 30px;
+    }
+}
+@media (max-width: 650px) {
+
+    .searchBox{
+        height: 40px;
+    }
+    .searchBox > input{
+        font-size: 18px;
+    }
+    .searchButton{
+        width: 48.35px;
+        height: 37px;
+    }
+    .searchButton > img{
+        width: 25px;
+    }
+}
+@media (max-width: 530px) {
+    .searchBox{
+        height: 35px;
+    }
+    .searchButton{
+        width: 43.61px;
+        height: 32px;
+    }
+    .searchButton > img{
+        width: 22px;
+    }
+}
